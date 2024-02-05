@@ -1,0 +1,37 @@
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.377);
+    padding: 30px 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+@media only screen and (max-width: 1028px){
+    .scroll-container{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+}
+
+.nav-link{
+    color: white !important;
+    text-decoration: none !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif !important;
+    margin-right: 15px !important;
+    transition: .3s !important;
+}
+
+.home{
+    font-weight: bolder !important;
+}
+
+.nav-link:hover{
+    color: #adadad !important;
+}
+
+.last{
+    margin-right: 0 !important;
+}

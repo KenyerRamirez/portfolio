@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1280px){
+    .projects-box{
+        display: inline-block !important;
+        width: 100% !important;
+    }
+    .title-projects-box{
+        width: 100% !important;
+    }
+    .title-projects-text{
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+    .main-cards-box{
+        margin: 0 auto !important;
+        width: 88% !important;
+    }
+    .context-project{
+        font-size: 12px !important;
+        margin-top: 10px !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    .content-card-project{
+        position: static !important;
+        transition: none !important;
+        background: #171717 !important;
+    }
+    .icon-project{
+        width: 18px;
+        height: 18px;
+    }
+}

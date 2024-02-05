@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1280px){
+    .title-skills-box{
+        width: 100% !important;
+    }
+    .title-skills-text{
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+    .skills-logos-box{
+        display: flex !important;
+        flex-direction: column !important;
+        margin: auto !important;
+    }
+    .logo-pack{
+        display: flex !important;
+        margin-bottom: 5px !important;
+    }
+    .logo-right{
+        margin-left: 40px !important;
+    }
+    .skills-box{
+        width: 245px !important;
+        margin: auto !important;
+    }
+}

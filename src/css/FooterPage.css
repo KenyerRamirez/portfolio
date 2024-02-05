@@ -1,0 +1,21 @@
+.container{
+    padding: 40px;
+    transition: 250ms;
+    border-bottom: 4px solid #00000000;
+}
+
+.container:hover{
+    background-color: #1b1b1b;
+    border-radius: 20px;
+    border-bottom: 4px solid #2e2e2e;
+}
+
+.email{
+    color: #9A9A9A;
+    text-decoration: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.email:hover{
+    text-decoration: underline;
+}

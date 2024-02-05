@@ -1,0 +1,29 @@
+.icon{
+    color: whitesmoke;
+    transition: 250ms;
+}
+
+.icon:hover{
+    color: #0AA4FB;
+}
+
+@media only screen and (max-width: 1280px){
+    .main-box{
+        display: inline-block !important;
+        padding: 10px !important;
+        width: 100% !important;
+        height: 0 !important;
+    }
+    .avatar{
+        width: 220px !important;
+        height: 220px !important;
+        margin: -40px auto 40px;
+    }
+    .about-box{
+        text-align: center !important;
+        margin: auto !important;
+    }
+    .title-name{
+        font-size: 25px !important;
+    }
+}
