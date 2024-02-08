@@ -12,12 +12,11 @@ import { Icon } from "@iconify/react";
 import "../css/ProjectsPage.css";
 
 const ProjectCards = () => {
-
   return (
     <>
       <Grid
         className="main-cards-box"
-        sx={{ flexGrow: 1, width: '100%' }}
+        sx={{ flexGrow: 1 }}
         container
         spacing={2}
       >
@@ -121,8 +120,6 @@ const ProjectCards = () => {
               borderRight: "1px solid #676767",
               cursor: "default",
             }}
-            onMouseOver={() => setHovered(true)}
-            onMouseOut={() => setHovered(false)}
           >
             <CardActionArea>
               <CardMedia
@@ -155,8 +152,8 @@ const ProjectCards = () => {
                   <Typography variant="span" sx={{ fontWeight: "bolder" }}>
                     Campaign Manager
                   </Typography>{" "}
-                  for a marketing company named Sales Factory, it wasn't my own
-                  project, actually, I was contributor as a full stack
+                  for a marketing company named Sales Factory, this project
+                  isn't mine, actually, I was contributor as a full stack
                   developer (web app).
                 </Typography>
                 <Box sx={{ textAlign: "left", display: "flex" }}>
