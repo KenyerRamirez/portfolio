@@ -14,12 +14,13 @@
     .logo-pack{
         display: flex !important;
         margin-bottom: 5px !important;
+        padding-left: 10px !important;
     }
     .logo-right{
         margin-left: 40px !important;
     }
     .skills-box{
-        width: 245px !important;
+        width: 230px !important;
         margin: auto !important;
     }
 }

@@ -12,13 +12,12 @@ import { Icon } from "@iconify/react";
 import "../css/ProjectsPage.css";
 
 const ProjectCards = () => {
-  const [isHovered, setHovered] = useState(false);
 
   return (
     <>
       <Grid
         className="main-cards-box"
-        sx={{ flexGrow: 1 }}
+        sx={{ flexGrow: 1, width: '100%' }}
         container
         spacing={2}
       >
@@ -34,8 +33,6 @@ const ProjectCards = () => {
               borderRight: "1px solid #676767",
               cursor: "default",
             }}
-            onMouseOver={() => setHovered(true)}
-            onMouseOut={() => setHovered(false)}
           >
             <CardActionArea>
               <CardMedia

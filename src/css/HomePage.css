@@ -10,7 +10,6 @@
 @media only screen and (max-width: 1280px){
     .main-box{
         display: inline-block !important;
-        padding: 10px !important;
         width: 100% !important;
         height: 0 !important;
     }
