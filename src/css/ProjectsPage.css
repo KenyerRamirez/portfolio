@@ -24,6 +24,7 @@
         position: static !important;
         transition: none !important;
         background: #171717 !important;
+        height: 200px;
     }
     .icon-project{
         width: 18px;
