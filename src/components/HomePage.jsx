@@ -53,7 +53,7 @@ const HomePage = () => {
           </Typography>
           <Typography className="text-about" sx={{ mb: 2 }}>
             Humble, professional and a discipline person. I'm a mobile and web
-            developer, experienced in MERN Stack.
+            developer, experienced in Full-Stack JS development.
           </Typography>
           <Box sx={{ mb: 2 }}>
             <Link
