@@ -29,7 +29,7 @@ const HomePage = () => {
           <Avatar
             className="avatar"
             alt="KR profile"
-            src="/images/profile.jpg"
+            src="/images/profile_picture.jpg"
             sx={{
               width: "285px",
               height: "285px",
