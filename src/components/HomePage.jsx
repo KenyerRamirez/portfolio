@@ -9,7 +9,7 @@ import "../css/HomePage.css";
 const HomePage = () => {
   const handleClickDownload = () => {
     window.location.href =
-      "https://drive.usercontent.google.com/u/0/uc?id=19fZPysTH9yjNbEOVZ6rp1kUQMxim-5Xa&export=download";
+      "https://drive.usercontent.google.com/u/0/uc?id=1oXko9TUHtw50fBa8SdMgnDo0fznUuDPd&export=download";
   };
   return (
     <>
