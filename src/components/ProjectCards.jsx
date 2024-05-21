@@ -182,6 +182,108 @@ const ProjectCards = () => {
                       height="25"
                     />
                   </Box>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      className="icon-project"
+                      width="25"
+                      height="25"
+                      icon="akar-icons:postgresql-fill"
+                      style={{ color: "white" }}
+                    />
+                  </Box>
+                  <Box>
+                    <Icon
+                      icon="fa6-brands:aws"
+                      className="icon-project"
+                      width="25"
+                      height="25"
+                    />
+                  </Box>
+                </Box>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </Grid>
+      </Grid>
+      <Grid
+        className="main-cards-box"
+        sx={{ flexGrow: 1, mt: 2 }}
+        container
+        spacing={2}
+      >
+        <Grid item xs={6}>
+          <Card
+            sx={{
+              position: "relative",
+              maxWidth: 345,
+              borderRadius: 4,
+              borderBottom: "4px solid #676767",
+              borderTop: "1px solid #676767",
+              borderLeft: "1px solid #676767",
+              borderRight: "1px solid #676767",
+              cursor: "default",
+            }}
+          >
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                image="/images/quickorder.jpg"
+                alt="Quickorder-image"
+                sx={{ position: "relative" }}
+              />
+              <CardContent
+                className="content-card-project"
+                sx={{
+                  position: "absolute",
+                  bottom: 0,
+                  width: "100%",
+                  background: `linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6),rgba(0,0,0,0.9))`,
+                  color: "#FFFFFF",
+                  padding: "10px 20px",
+                  visibility: "visible",
+                  transition: "0.3s",
+                  opacity: 1,
+                }}
+              >
+                <Typography
+                  className="context-project"
+                  variant="body2"
+                  color="white"
+                  sx={{ textAlign: "left", mb: 2, mt: 4, mr: 5 }}
+                >
+                  This is an app for restaurant orders named{" "}
+                  <Typography variant="span" sx={{ fontWeight: "bolder" }}>
+                    QuickOrder
+                  </Typography>{" "}
+                  for Android devices, developed by me as back as front, but it
+                  is still in development.
+                </Typography>
+                <Box sx={{ textAlign: "left", display: "flex" }}>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      className="icon-project"
+                      icon="mdi:react"
+                      width="25"
+                      height="25"
+                    />
+                  </Box>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      className="icon-project"
+                      icon="akar-icons:node-fill"
+                      width="25"
+                      height="25"
+                    />
+                  </Box>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      className="icon-project"
+                      icon="simple-icons:express"
+                      color="white"
+                      width="25"
+                      height="25"
+                    />
+                  </Box>
                   <Box>
                     <Icon
                       className="icon-project"
@@ -189,6 +291,92 @@ const ProjectCards = () => {
                       height="25"
                       icon="akar-icons:postgresql-fill"
                       style={{ color: "white" }}
+                    />
+                  </Box>
+                </Box>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        <Grid item xs={6}>
+          <Card
+            sx={{
+              position: "relative",
+              maxWidth: 345,
+              borderRadius: 4,
+              borderBottom: "4px solid #676767",
+              borderTop: "1px solid #676767",
+              borderLeft: "1px solid #676767",
+              borderRight: "1px solid #676767",
+              cursor: "default",
+            }}
+          >
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                image="/images/clew.jpg"
+                alt="Multishop-image"
+                sx={{ position: "relative" }}
+              />
+              <CardContent
+                className="content-card-project"
+                sx={{
+                  position: "absolute",
+                  bottom: 0,
+                  width: "100%",
+                  background: `linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6),rgba(0,0,0,0.9))`,
+                  color: "#FFFFFF",
+                  padding: "10px 20px",
+                  visibility: "visible",
+                  transition: "0.3s",
+                  opacity: 1,
+                }}
+              >
+                <Typography
+                  className="context-project"
+                  variant="body2"
+                  color="white"
+                  sx={{ textAlign: "left", mb: 2, mt: 4, mr: 5 }}
+                >
+                  This is a chatbot named{" "}
+                  <Typography variant="span" sx={{ fontWeight: "bolder" }}>
+                    Clew
+                  </Typography>{" "}
+                  for the same marketing company than the past project, this
+                  project isn't mine, actually, I was contributor as a Front End
+                  developer.
+                </Typography>
+                <Box sx={{ textAlign: "left", display: "flex" }}>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      className="icon-project"
+                      icon="mdi:react"
+                      width="25"
+                      height="25"
+                    />
+                  </Box>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      icon="akar-icons:python-fill"
+                      width="25"
+                      height="25"
+                      className="icon-project"
+                    />
+                  </Box>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      className="icon-project"
+                      width="25"
+                      height="25"
+                      icon="devicon-plain:cosmosdb"
+                    />
+                  </Box>
+                  <Box sx={{ mr: 2 }}>
+                    <Icon
+                      className="icon-project"
+                      width="25"
+                      height="25"
+                      icon="teenyicons:azure-outline"
                     />
                   </Box>
                 </Box>
