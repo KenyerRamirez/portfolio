@@ -127,9 +127,19 @@ const SkillsCard = () => {
           </Grid>
           <Grid className="logo-pack" item xs={2}>
             <Tooltip title="Cypress">
-              <Box>
+              <Box sx={{ mb: 2 }}>
                 <Icon
                   icon="simple-icons:cypress"
+                  color="white"
+                  width="40"
+                  height="40"
+                />
+              </Box>
+            </Tooltip>
+            <Tooltip title="Docker">
+              <Box>
+                <Icon
+                  icon="simple-icons:docker"
                   color="white"
                   width="40"
                   height="40"
