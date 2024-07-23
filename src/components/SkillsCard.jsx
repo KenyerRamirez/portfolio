@@ -137,7 +137,7 @@ const SkillsCard = () => {
               </Box>
             </Tooltip>
             <Tooltip title="Docker">
-              <Box>
+              <Box className="logo-right">
                 <Icon
                   icon="simple-icons:docker"
                   color="white"
