@@ -1,28 +1,179 @@
-.icon{
-    color: whitesmoke;
-    transition: 250ms;
+.icon {
+  transition: 250ms;
+  color: #17202a;
 }
 
-.icon:hover{
-    color: #0AA4FB;
+.icon:hover {
+  color: #2b3e55;
 }
 
-@media only screen and (max-width: 1280px){
-    .main-box{
-        display: inline-block !important;
-        width: 100% !important;
-        height: 0 !important;
-    }
-    .avatar{
-        width: 220px !important;
-        height: 220px !important;
-        margin: -40px auto 40px;
-    }
-    .about-box{
-        text-align: center !important;
-        margin: auto !important;
-    }
-    .title-name{
-        font-size: 25px !important;
-    }
+.floating-icon {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+}
+
+.node-icon {
+  width: 50px;
+  top: 100px;
+  left: 500px;
+}
+
+.git-icon {
+  width: 50px;
+  top: 580px;
+  left: 1180px;
+}
+
+.typescript-icon {
+  width: 50px;
+  top: 680px;
+  left: 250px;
+}
+
+.react-icon {
+  width: 50px;
+  top: 130px;
+  left: 1100px;
+}
+
+.next-icon {
+  width: 50px;
+  top: 1870px;
+  left: 100px;
+}
+
+.github-icon {
+  width: 50px;
+  top: 2490px;
+  left: 150px;
+}
+
+.vsc-icon {
+  width: 50px;
+  top: 2420px;
+  left: 1220px;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.main-box {
+  margin-bottom: 280px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.avatar-box {
+  position: relative;
+  margin-top: 120px;
+}
+
+.avatar {
+  position: absolute;
+  width: 400px !important;
+  height: 400px !important;
+  border-radius: 5px;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.avatar-shadow {
+  position: absolute;
+  width: 400px !important;
+  height: 400px !important;
+  background-color: #ededed;
+  border: 2px solid #17202a;
+  border-radius: 5px;
+  top: 10px;
+  left: 10px;
+}
+
+.about-box {
+  text-align: left !important;
+  margin-top: 160px;
+}
+
+.title-name {
+  margin-bottom: 10px !important;
+  font-size: 40px !important;
+  color: #17202a !important;
+  font-family: "IBM Plex Serif", serif !important;
+  font-weight: 600 !important;
+}
+
+.title-profession {
+  margin-bottom: 10px !important;
+  font-size: 27px !important;
+  color: #17202a !important;
+  font-family: "IBM Plex Serif", serif !important;
+  font-weight: 500 !important;
+}
+
+.text-about {
+  margin-bottom: 10px !important;
+  font-size: 20px !important;
+  color: #8f8f8f !important;
+  font-family: "IBM Plex Serif", serif !important;
+  font-weight: normal !important;
+}
+
+.button-download {
+  position: absolute !important;
+  background-color: #17202a !important;
+  color: white;
+  border-radius: 2px !important;
+  font-weight: bolder;
+  text-transform: none !important;
+  height: 45px !important;
+  width: 184px !important;
+  box-shadow: none !important;
+  z-index: 10;
+}
+
+.button-download:hover {
+  background-color: #2b3e55 !important;
+}
+
+.button-download-text {
+  font-family: "IBM Plex Serif", serif !important;
+  margin: 0 10px !important;
+  font-weight: 500 !important;
+}
+
+.button-download-shadow {
+  position: absolute !important;
+  height: 45px !important;
+  width: 184px !important;
+  border-radius: 2px !important;
+  background-color: #ededed !important;
+  border: 2px solid #17202a !important;
+  margin-top: 3px !important;
+  margin-left: 3.5px !important;
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-box {
+    display: inline-block !important;
+    width: 100% !important;
+    height: 0 !important;
+  }
+  .avatar {
+    width: 220px !important;
+    height: 220px !important;
+  }
+  .about-box {
+    text-align: center !important;
+    margin: auto !important;
+  }
+  .title-name {
+    font-size: 25px !important;
+  }
 }

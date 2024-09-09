@@ -1,0 +1,23 @@
+
+.titleProjectsBox {
+    text-align: center !important;
+    margin-bottom: 80px;
+  }
+  
+  .titleProjectsText {
+    font-family: "IBM Plex Serif", serif !important;
+    font-size: 50px !important;
+    text-align: center !important;
+    font-weight: bolder !important;
+    margin-top: 40px !important;
+    margin-bottom: 10px !important;
+    cursor: default;
+  }
+  
+  .descProjectsText {
+    font-size: 20px !important;
+    color: #8f8f8f !important;
+    font-family: "IBM Plex Serif", serif !important;
+    font-weight: normal !important;
+    cursor: default;
+  }
