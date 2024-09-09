@@ -1,39 +1,180 @@
-@media only screen and (max-width: 1280px){
-    .projects-box{
-        display: inline-block !important;
-        width: 100% !important;
-    }
-    .title-projects-box{
-        width: 100% !important;
-    }
-    .title-projects-text{
-        font-size: 25px !important;
-        text-align: center !important;
-    }
-    .main-cards-box{
-        margin: 0 auto !important;
-        width: 88% !important;
-    }
-    .context-project{
-        font-size: 12px !important;
-        margin-top: 10px !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-    }
-    .content-card-project{
-        position: static !important;
-        transition: none !important;
-        background: #171717 !important;
-    }
-    .icon-project{
-        width: 18px;
-        height: 18px;
-    }
+.projects-box {
+  background-color: #ededed !important;
+  width: 100% !important;
+  margin-top: 100px;
+  padding: 50px 0;
 }
 
-@media only screen and (min-width: 860px){
-    .projects-box{
-        display: inline-block !important;
-        width: 90% !important;
-    }
+.title-projects-box {
+  text-align: center !important;
+  margin-bottom: 80px;
+}
+
+.title-projects-text {
+  font-family: "IBM Plex Serif", serif !important;
+  font-size: 50px !important;
+  text-align: center !important;
+  font-weight: bolder !important;
+  margin-top: 40px !important;
+  margin-bottom: 10px !important;
+  cursor: default;
+}
+
+.desc-projects-text {
+  font-size: 20px !important;
+  color: #8f8f8f !important;
+  font-family: "IBM Plex Serif", serif !important;
+  font-weight: normal !important;
+  cursor: default;
+}
+
+.card-container {
+  position: relative;
+  max-width: 350px;
+  height: 455px;
+  border-radius: 5px !important;
+  cursor: default;
+  border: 2px solid #17202a;
+}
+
+.card-shadow {
+  position: absolute;
+  width: 350px;
+  height: 455px;
+  border-radius: 5px;
+  border: 2px solid #17202a;
+  background-color: #f6f6f6;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.image-card-box {
+  width: 281px !important;
+  height: 174px !important;
+  margin: 25px auto -1px !important;
+  border-radius: 5px !important;
+  border: 1px solid #cecece;
+}
+
+.content-card-project {
+  width: 281px !important;
+  margin: auto;
+}
+
+.title-project {
+  color: #171717 !important;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  font-family: "IBM Plex Serif", serif !important;
+}
+
+.context-project {
+  color: #8f8f8f !important;
+  font-family: "IBM Plex Serif", serif !important;
+  font-weight: 300 !important;
+  margin-bottom: 2px !important;
+  margin-top: 10px !important;
+}
+
+.button-link-container {
+  width: 100% !important;
+  height: 35px !important;
+  display: flex;
+}
+
+.link-box-active,
+.link-box-desactive {
+  width: 150px !important;
+  height: 30px !important;
+  font-family: "IBM Plex Serif", serif !important;
+  font-weight: 500 !important;
+  border: 1px solid #b6b6b6;
+  border-radius: 2px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  color: #17202a !important;
+  font-size: 17px !important;
+  cursor: pointer !important;
+  transition: 0.2s;
+  user-select: none !important;
+}
+
+.link-box-desactive {
+  width: 190px !important;
+  color: #b6b6b6 !important;
+  cursor: not-allowed !important;
+}
+
+.link-box-active:hover {
+  background-color: #f6f6f6;
+}
+
+.link-box-active:active {
+  box-shadow: inset 0px 0px 8px -2px rgba(89, 89, 89, 1);
+}
+
+.main-cards-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -32px 0 0 -20px !important;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.buttons-container{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.option, .option-selected{
+    width: 25px;
+    height: 25px;
+    border:1px solid #17202A;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.option:hover{
+    background-color: #d8d8d8;
+}
+
+.option-selected{
+    background-color: #17202A;
+}
+
+@media only screen and (max-width: 1280px) {
+  .projects-box {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .title-projects-box {
+    width: 100% !important;
+  }
+  .title-projects-text {
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+  .main-cards-box {
+    margin: 0 auto !important;
+    width: 88% !important;
+  }
+  .context-project {
+    font-size: 12px !important;
+    margin-top: 10px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .content-card-project {
+    position: static !important;
+    transition: none !important;
+    background: #171717 !important;
+  }
+  .icon-project {
+    width: 18px;
+    height: 18px;
+  }
 }

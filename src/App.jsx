@@ -4,13 +4,14 @@ import {
   BrowserRouter,
   Routes,
 } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import HomePage from "./components/HomePage";
+import NavBar from "./components/NavBar/NavBar";
+import HomePage from "./components/HomePage/HomePage";
 import NotFoundPage from "./components/NotFoundPage";
-import ProjectsPage from "./components/ProjectsPage";
-import SkillsPage from "./components/SkillsPage";
+import ProjectsPage from "./components/ProjectPage/ProjectsPage";
+import SkillsPage from "./components/SkillsPage/SkillsPage";
 import ContactPage from "./components/ContactPage";
 import FooterPage from "./components/FooterPage";
+import ExperiencePage from "./components/ExperiencePage/ExperiencePage";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
                 <HomePage />
                 <ProjectsPage />
                 <SkillsPage />
+                <ExperiencePage />
                 <ContactPage />
                 <FooterPage />
               </>
