@@ -20,6 +20,7 @@ const ExperienceCards = () => {
         justifyContent="center"
         alignItems="center"
         spacing={4}
+        sx={{ pb: 12 }}
       >
         <Grid item xs={6} sm={6} md={4}>
           <Box className="card-shadow"></Box>

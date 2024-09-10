@@ -83,7 +83,13 @@ const ProjectCards = () => {
                   </Box>
                 </Box>
                 <Box className="button-link-container">
-                  <Link className="link-box-active">Source Code</Link>
+                  <Link
+                    className="link-box-active"
+                    href="https://github.com/KenyerRamirez/codebar-scanner-front"
+                    target="_blank"
+                  >
+                    Source Code
+                  </Link>
                 </Box>
               </CardContent>
             </Card>
@@ -222,7 +228,13 @@ const ProjectCards = () => {
                   </Box>
                 </Box>
                 <Box className="button-link-container">
-                  <Link className="link-box-active">Source Code</Link>
+                  <Link
+                    className="link-box-active"
+                    href="https://github.com/KenyerRamirez/front-app-quickorder"
+                    target="_blank"
+                  >
+                    Source Code
+                  </Link>
                 </Box>
               </CardContent>
             </Card>
@@ -450,8 +462,9 @@ const ProjectCards = () => {
                   Champsraise
                 </Typography>
                 <Typography className="context-project" variant="body2">
-                  A Web App, for a company from the United States about campaigns and donations, I
-                  was contributor as a Front-End developer (Project isn't mine).
+                  A Web App, for a company from the United States about
+                  campaigns and donations, I was contributor as a Front-End
+                  developer (Project isn't mine).
                 </Typography>
                 <Box
                   sx={{ textAlign: "left", display: "flex", marginY: "12px" }}
