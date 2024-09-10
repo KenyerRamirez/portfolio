@@ -7,7 +7,7 @@ import globalStyles from "../../css/index.module.css";
 const ContactPage = () => {
   return (
     <>
-      <Box id="contact" sx={{ mb: 20 }}></Box>
+      <Box id="contact" sx={{ mt: 8.5, mb: 20 }}></Box>
       <Box sx={{ mb: 10 }}>
         <Box className="title-contact-box">
           <Box className={globalStyles.titleProjectsBox}>

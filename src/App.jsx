@@ -10,7 +10,7 @@ import NotFoundPage from "./components/NotFoundPage";
 import ProjectsPage from "./components/ProjectPage/ProjectsPage";
 import SkillsPage from "./components/SkillsPage/SkillsPage";
 import ContactPage from "./components/ContactPage/ContactPage";
-import FooterPage from "./components/FooterPage";
+import FooterPage from "./components/FooterPage/FooterPage";
 import ExperiencePage from "./components/ExperiencePage/ExperiencePage";
 
 const App = () => {
