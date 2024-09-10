@@ -54,6 +54,18 @@
   left: 1220px;
 }
 
+.laravel-icon {
+  width: 50px;
+  top: 3720px;
+  left: 1220px;
+}
+
+.jira-icon {
+  width: 50px;
+  top: 3620px;
+  left: 100px;
+}
+
 @keyframes float {
   0%,
   100% {

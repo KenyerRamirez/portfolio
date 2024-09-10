@@ -6,26 +6,15 @@ import "../css/FooterPage.css";
 const FooterPage = () => {
   return (
     <>
-      <Box className="container" sx={{ mb: 8 }}>
-        <Box sx={{ mb: 2 }}>
-          <Typography variant="h5" sx={{ fontWeight: "bolder" }}>
-            Are you interested
-            <Typography variant="span" sx={{ color: "#0AA4FB" }}>
-              ?
-            </Typography>
-          </Typography>
-        </Box>
-        <Box sx={{ mb: 2 }}>
-          <Typography
-            variant="h6"
-            sx={{ fontStyle: "italic", fontWeight: 200 }}
-          >
+      <Box className="container">
+        <Box sx={{ mb: 3 }}>
+          <Typography variant="h6" className="footer-title">
             Let
-            <Typography variant="span" sx={{ color: "#0AA4FB" }}>
+            <Typography variant="span" sx={{ color: "#4A6FA5" }}>
               '
             </Typography>
             s work together, hit me up
-            <Typography variant="span" sx={{ color: "#0AA4FB" }}>
+            <Typography variant="span" sx={{ color: "#4A6FA5" }}>
               !
             </Typography>
           </Typography>
@@ -38,12 +27,10 @@ const FooterPage = () => {
             If you can't send an email through the form, click here.
           </Link>
         </Box>
-        <Box>
-          <Avatar
-            alt="KR logo"
-            src="/images/logo.png"
-            sx={{ borderRadius: 0, width: "80px", height: "20px", mx: "auto" }}
-          />    
+        <Box sx={{ mb: -3 }}>
+          <p className="footer-font">
+            <span className="footer-span">{"< >"}</span>RAMUSSDEV
+          </p>
         </Box>
       </Box>
     </>

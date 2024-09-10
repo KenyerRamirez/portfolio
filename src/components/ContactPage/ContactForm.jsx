@@ -1,9 +1,9 @@
-import { Box, Button, CircularProgress } from "@mui/material";
+import { Box, Button, CircularProgress, Link } from "@mui/material";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "../css/ContactPage.css";
+import "../../css/ContactPage.css";
 
 const ContactForm = () => {
   const form = useRef();
@@ -51,24 +51,17 @@ const ContactForm = () => {
   return (
     <>
       <ToastContainer
-        theme="dark"
+        theme="light"
         closeOnClick
         stacked
         style={{ textAlign: "left", marginTop: 70 }}
       />
-      <Box
-        className="main-form-box"
-        sx={{
-          width: "100%",
-          backgroundColor: "#2E2E2E",
-          borderBottom: "4px solid #676767",
-          borderTop: "1px solid #676767",
-          borderLeft: "1px solid #676767",
-          borderRight: "1px solid #676767",
-          borderRadius: 4,
-        }}
-      >
-        <Box className="form-inputs-box" sx={{ margin: "40px 120px 40px 100px" }}>
+      <Box className="form-container">
+        <Box className="container-shadow"></Box>
+        <Box
+          className="form-inputs-box"
+          sx={{ margin: "40px 120px 40px 100px" }}
+        >
           <form ref={form}>
             <input
               type="text"
@@ -104,24 +97,15 @@ const ContactForm = () => {
               onChange={(e) => setMessage(e.target.value)}
               multiline
             ></textarea>
-            <Button
-              className="button-download"
-              variant="submit"
-              sx={{
-                bgcolor: "#FFFFFF",
-                color: "#171717",
-                borderRadius: 20,
-                fontWeight: "bolder",
-                "&:hover": {
-                  bgcolor: "#0AA4FB",
-                  color: "white",
-                },
-              }}
+            <Box
+              className="button-send-email-container"
               onClick={sendEmail}
               disabled={loading}
             >
-              {loading ? <CircularProgress size={24} /> : "Send email"}
-            </Button>
+              <Link className="button-send-email">
+                {loading ? <CircularProgress size={20} sx={{ mt: .5, color: "#171717" }} /> : "Send email"}
+              </Link>
+            </Box>
           </form>
         </Box>
       </Box>

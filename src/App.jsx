@@ -9,7 +9,7 @@ import HomePage from "./components/HomePage/HomePage";
 import NotFoundPage from "./components/NotFoundPage";
 import ProjectsPage from "./components/ProjectPage/ProjectsPage";
 import SkillsPage from "./components/SkillsPage/SkillsPage";
-import ContactPage from "./components/ContactPage";
+import ContactPage from "./components/ContactPage/ContactPage";
 import FooterPage from "./components/FooterPage";
 import ExperiencePage from "./components/ExperiencePage/ExperiencePage";
 

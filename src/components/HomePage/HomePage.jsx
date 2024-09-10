@@ -50,6 +50,16 @@ const HomePage = () => {
           alt="vsc-icon"
           src="/icons/vsc-icon.png"
         />
+        <img
+          className="jira-icon floating-icon"
+          alt="jira-icon"
+          src="/icons/jira-icon.png"
+        />
+        <img
+          className="laravel-icon floating-icon"
+          alt="laravel-icon"
+          src="/icons/file-icons_laravel.png"
+        />
         <Grid container spacing={2}>
           <Grid item xs={6}>
             <Box className="avatar-box">
