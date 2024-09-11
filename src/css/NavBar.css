@@ -1,5 +1,5 @@
 .nav-bar {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   width: 100%;
   background-color: #17202a;
@@ -13,11 +13,8 @@
   margin-top: 70px;
 }
 
-@media only screen and (max-width: 1028px) {
-  .scroll-container {
-    margin: 0 !important;
-    width: 100% !important;
-  }
+.burger-menu {
+  display: none;
 }
 
 .nav-link {
@@ -31,7 +28,7 @@
   transition: color 0.3s !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #d9d9d9 !important;
 }
 
@@ -46,7 +43,7 @@
   transition: width 0.3s ease-in-out;
 }
 
-.nav-link:hover::after{
+.nav-link:hover::after {
   width: 100%;
 }
 
@@ -69,4 +66,35 @@
   margin: auto;
   display: flex;
   margin-right: 90px;
+}
+
+@media only screen and (max-width: 1028px) {
+  .nav-bar {
+    width: 390px;
+  }
+  .nav-box {
+    margin-right: 20px !important;
+  }
+  .navBarFont {
+    margin-left: 20px !important;
+  }
+  .burger-menu {
+    display: block;
+    color: white;
+    cursor: pointer;
+    background-color: #ffffff1f;
+    padding: 7px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  .burger-menu:active {
+    background-color: #ffffff3d;
+  }
+  .nav-link {
+    display: none;
+  }
+  .scroll-container {
+    margin: 0 !important;
+    width: 100% !important;
+  }
 }

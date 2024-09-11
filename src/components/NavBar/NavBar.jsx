@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Avatar, Link } from "@mui/material";
 import "../../css/NavBar.css";
+import { Icon } from "@iconify/react";
 
 const NavBar = ({ children }) => {
   return (
@@ -27,6 +28,12 @@ const NavBar = ({ children }) => {
           <Link className="nav-link" href="#contact">
             Contact me
           </Link>
+          <Icon
+            className="burger-menu"
+            icon="iconamoon:menu-burger-horizontal"
+            width={24}
+            height={24}
+          />
         </Box>
       </Box>
       <Box className="scroll-container">{children}</Box>

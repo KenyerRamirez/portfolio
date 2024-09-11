@@ -60,7 +60,7 @@ const HomePage = () => {
           alt="laravel-icon"
           src="/icons/file-icons_laravel.png"
         />
-        <Grid container spacing={2}>
+        <Grid container spacing={2} className="main-home-box-container">
           <Grid item xs={6}>
             <Box className="avatar-box">
               <img
@@ -89,7 +89,7 @@ const HomePage = () => {
                 Humble, professional and a discipline person. I'm a mobile and
                 web developer, experienced in Full-Stack JS development.
               </Typography>
-              <Box sx={{ mb: 2, display: "flex", alignItems: "center", mt: 2 }}>
+              <Box className="social-media-icons" sx={{ mb: 2, display: "flex", alignItems: "center", mt: 2 }}>
                 <Link
                   className="icon"
                   to="https://github.com/KenyerRamirez"
@@ -118,12 +118,12 @@ const HomePage = () => {
                   variant="contained"
                   onClick={handleClickDownload}
                 >
+                  <Box className="button-download-shadow"></Box>
                   <DownloadIcon />
                   <Typography className="button-download-text">
                     Download CV
                   </Typography>
                 </Button>
-                <Box className="button-download-shadow"></Box>
               </Box>
             </Box>
           </Grid>

@@ -147,7 +147,6 @@
   height: 45px !important;
   width: 184px !important;
   box-shadow: none !important;
-  z-index: 10;
 }
 
 .button-download:hover {
@@ -167,8 +166,9 @@
   border-radius: 2px !important;
   background-color: #ededed !important;
   border: 2px solid #17202a !important;
-  margin-top: 3px !important;
-  margin-left: 3.5px !important;
+  margin-top: 9px !important;
+  margin-left: 9px !important;
+  z-index: -50;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -187,5 +187,85 @@
   }
   .title-name {
     font-size: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .avatar-box{
+    margin-left: -100px !important;
+  }
+  .avatar-shadow{
+    width: 220px !important;
+    height: 220px !important;
+  }
+  .main-home-box-container{
+    display: block !important;
+  }
+  .about-box{
+    width: 300px !important;
+    margin-top: 250px !important;
+    margin-left: -130px !important;
+  }
+  .social-media-icons{
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .button-download-container{
+    position: absolute;
+    margin-left: 55px !important;
+  }
+  .node-icon {
+    width: 50px;
+    top: 100px;
+    left: 330px;
+  }
+  
+  .git-icon {
+    width: 50px;
+    top: 620px;
+    left: 330px;
+  }
+  
+  .typescript-icon {
+    width: 50px;
+    top: 680px;
+    left: 20px;
+    z-index: -10;
+  }
+  
+  .react-icon {
+    width: 50px;
+    top: 130px;
+    left: 10px;
+  }
+  
+  .next-icon {
+    width: 50px;
+    top: 1870px;
+    left: 100px;
+  }
+  
+  .github-icon {
+    width: 50px;
+    top: 2490px;
+    left: 150px;
+  }
+  
+  .vsc-icon {
+    width: 50px;
+    top: 2420px;
+    left: 1220px;
+  }
+  
+  .laravel-icon {
+    width: 50px;
+    top: 3720px;
+    left: 1220px;
+  }
+  
+  .jira-icon {
+    width: 50px;
+    top: 3620px;
+    left: 100px;
   }
 }
