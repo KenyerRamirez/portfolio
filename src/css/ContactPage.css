@@ -89,8 +89,23 @@
   .form-inputs-box {
     margin: 40px 45px 40px 20px !important;
   }
-  .main-form-box {
-    width: 90% !important;
-    margin: 0 auto !important;
+  .container-shadow {
+    width: 290px;
+    height: 510px;
+    margin-top: 10px;
+    margin-left: 10px !important;
+  }
+  .form-container {
+    width: 290px;
+    height: 510px;
+  }
+  .input {
+    height: 18px !important;
+  }
+  .button-send-email-container{
+    padding-left: 10px !important;
+  }
+  .button-send-email{
+    height: 25px !important;
   }
 }

@@ -172,25 +172,13 @@
 }
 
 @media only screen and (max-width: 1280px) {
-  .main-box {
-    display: inline-block !important;
-    width: 100% !important;
-    height: 0 !important;
+  .title-name {
+    font-size: 25px !important;
   }
   .avatar {
     width: 220px !important;
     height: 220px !important;
   }
-  .about-box {
-    text-align: center !important;
-    margin: auto !important;
-  }
-  .title-name {
-    font-size: 25px !important;
-  }
-}
-
-@media only screen and (max-width: 1028px) {
   .avatar-box{
     margin-left: -100px !important;
   }
@@ -205,6 +193,7 @@
     width: 300px !important;
     margin-top: 250px !important;
     margin-left: -130px !important;
+    text-align: center !important;
   }
   .social-media-icons{
     align-items: center !important;
@@ -222,13 +211,13 @@
   
   .git-icon {
     width: 50px;
-    top: 620px;
-    left: 330px;
+    top: 850px;
+    left: 310px;
   }
   
   .typescript-icon {
     width: 50px;
-    top: 680px;
+    top: 830px;
     left: 20px;
     z-index: -10;
   }
@@ -240,32 +229,32 @@
   }
   
   .next-icon {
-    width: 50px;
-    top: 1870px;
-    left: 100px;
+    width: 40px;
+    top: 1850px;
+    left: 30px;
   }
   
   .github-icon {
-    width: 50px;
-    top: 2490px;
-    left: 150px;
+    width: 40px;
+    top: 3355px;
+    left: 40px;
   }
   
   .vsc-icon {
     width: 50px;
-    top: 2420px;
-    left: 1220px;
+    top: 3355px;
+    left: 295px;
   }
   
   .laravel-icon {
-    width: 50px;
-    top: 3720px;
-    left: 1220px;
+    width: 40px;
+    top: 4830px;
+    left: 280px;
   }
   
   .jira-icon {
-    width: 50px;
-    top: 3620px;
-    left: 100px;
+    width: 40px;
+    top: 4830px;
+    left: 30px;
   }
 }

@@ -11,19 +11,19 @@
   padding: 30px 20px 0;
 }
 
-.image-card-box-hamal{
+.image-card-box-hamal {
   width: 212px !important;
   padding: 35px 32px 9px;
 }
 
-.context-experience{
+.context-experience {
   color: #8f8f8f !important;
   font-family: "IBM Plex Serif", serif !important;
   font-size: 20px !important;
   margin-top: 15px !important;
 }
 
-.date-container{
+.date-container {
   position: absolute;
   bottom: 0;
   margin-bottom: 20px;
@@ -60,7 +60,38 @@
   margin-top: 5px;
 }
 
+.card-container-experience {
+  position: relative;
+  max-width: 350px;
+  height: 455px;
+  border-radius: 5px !important;
+  cursor: default;
+  border: 2px solid #17202a;
+}
+
+.card-shadow-experience {
+  position: absolute;
+  width: 350px;
+  height: 455px;
+  border-radius: 5px;
+  border: 2px solid #17202a;
+  background-color: #f6f6f6;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main-cards-box-experience {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -32px 0 0 -20px !important;
+  padding: 20px 50px;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1280px) {
+  .css-1mhpih8-MuiGrid-root>.MuiGrid-item{
+    padding: 0 !important;
+  }
   .title-skills-box {
     width: 100% !important;
   }
@@ -84,5 +115,42 @@
   .skills-box {
     width: 230px !important;
     margin: auto !important;
+  }
+  .main-cards-box-experience {
+    display: block !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    margin-left: -25px !important;
+  }
+  .card-container-experience {
+    position: relative;
+    min-width: 300px;
+    max-width: 250px;
+    height: 405px;
+    border-radius: 5px !important;
+    cursor: default;
+    border: 2px solid #17202a;
+  }
+  .card-shadow-experience {
+    position: absolute;
+    width: 300px;
+    height: 405px;
+    border-radius: 5px;
+    border: 2px solid #17202a;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .first-box-experience{
+    margin-bottom: 60px !important;
+  }
+  .context-experience{
+    font-size: 18px !important;
+  }
+  .image-card-box-multishop{
+    padding: 20px 0 0 !important;
+  }
+  .image-card-box-hamal{
+    padding: 30px 12px 8px !important;
   }
 }

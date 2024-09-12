@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   background-color: #17202a;
-  padding: 5px !important;
+  padding: 10px 0 !important;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,8 @@
 
 @media only screen and (max-width: 1028px) {
   .nav-bar {
-    width: 390px;
+    position: relative !important;
+    margin-bottom: -40px !important;
   }
   .nav-box {
     margin-right: 20px !important;

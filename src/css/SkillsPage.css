@@ -7,6 +7,7 @@
   background-color: #f6f6f6;
   margin-top: 10px;
   margin-left: 10px;
+  z-index: -1;
 }
 
 .logo-container {
@@ -41,17 +42,20 @@
     display: flex !important;
     flex-direction: column !important;
     margin: auto !important;
+    padding: 0 !important;
   }
   .logo-pack {
     display: flex !important;
     margin-bottom: 5px !important;
-    padding-left: 10px !important;
-  }
-  .logo-right {
-    margin-left: 40px !important;
   }
   .skills-box {
     width: 230px !important;
     margin: auto !important;
+  }
+  .logo-container, .logo-shadow{
+    width: 80px !important;
+  }
+  .logo-shadow.logo-right{
+    margin-left: 50px !important;
   }
 }

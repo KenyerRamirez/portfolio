@@ -15,16 +15,16 @@ const ExperienceCards = () => {
   return (
     <>
       <Grid
-        className="main-cards-box"
+        className="main-cards-box-experience"
         container
         justifyContent="center"
         alignItems="center"
-        spacing={4}
+        spacing={2}
         sx={{ pb: 12 }}
       >
-        <Grid item xs={6} sm={6} md={4}>
-          <Box className="card-shadow"></Box>
-          <Card className="card-container">
+        <Grid item xs={6} sm={6} md={4} className="first-box-experience">
+          <Box className="card-shadow-experience"></Box>
+          <Card className="card-container-experience">
             <CardMedia
               className="image-card-box-multishop"
               component="img"
@@ -48,8 +48,8 @@ const ExperienceCards = () => {
           </Card>
         </Grid>
         <Grid item xs={6} sm={6} md={4}>
-          <Box className="card-shadow"></Box>
-          <Card className="card-container">
+          <Box className="card-shadow-experience"></Box>
+          <Card className="card-container-experience">
             <CardMedia
               className="image-card-box-hamal"
               component="img"
