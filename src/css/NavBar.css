@@ -69,10 +69,6 @@
 }
 
 @media only screen and (max-width: 1028px) {
-  .nav-bar {
-    position: relative !important;
-    margin-bottom: -40px !important;
-  }
   .nav-box {
     margin-right: 20px !important;
   }
@@ -91,11 +87,29 @@
   .burger-menu:active {
     background-color: #ffffff3d;
   }
+  .nav-link-drawer{
+    display: flex !important;
+    align-items: center !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin-left: 5px !important;
+    padding: 10px 0 12px !important;
+    position: relative;
+    transition: color 0.3s !important;
+    border-bottom: 1px solid #ffffff28;
+    width: 100%;
+  }
+  .list-item-container:active{
+    background-color: #253241;
+  }
   .nav-link {
     display: none;
   }
   .scroll-container {
-    margin: 0 !important;
+    margin: 20px 0 0 !important;
     width: 100% !important;
   }
 }

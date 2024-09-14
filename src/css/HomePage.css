@@ -192,6 +192,7 @@
   .about-box{
     width: 300px !important;
     margin-top: 250px !important;
+    margin-bottom: -40px !important;
     margin-left: -130px !important;
     text-align: center !important;
   }
