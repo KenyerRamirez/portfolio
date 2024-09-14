@@ -10,7 +10,7 @@ import "../../css/HomePage.css";
 const HomePage = () => {
   const handleClickDownload = () => {
     window.location.href =
-      "https://drive.usercontent.google.com/u/0/uc?id=1gMZcnwvdiAKkDf0DNJ3rjhzfs2PzNyzv&export=download";
+      "https://drive.usercontent.google.com/download?id=197Ro11io7rxk2AWeMgR7FS0-jgiChofj&export=download&authuser=0&confirm=t&uuid=73b4441f-bc75-4d64-a9fc-85810c40671f&at=AO7h07eUU9ZBebiacWFSn2Tdml3S:1726353186318";
   };
   return (
     <>
@@ -89,7 +89,10 @@ const HomePage = () => {
                 Humble, professional and a discipline person. I'm a mobile and
                 web developer, experienced in Full-Stack JS development.
               </Typography>
-              <Box className="social-media-icons" sx={{ mb: 2, display: "flex", alignItems: "center", mt: 2 }}>
+              <Box
+                className="social-media-icons"
+                sx={{ mb: 2, display: "flex", alignItems: "center", mt: 2 }}
+              >
                 <Link
                   className="icon"
                   to="https://github.com/KenyerRamirez"
