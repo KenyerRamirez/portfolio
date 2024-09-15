@@ -477,10 +477,19 @@ const ProjectCards = () => {
                   <Box
                     sx={{ textAlign: "left", display: "flex", marginY: "12px" }}
                   >
-                    <Box>
+                    <Box sx={{ mr: 2 }}>
                       <Icon
                         className="icon-project"
                         icon="teenyicons:nextjs-solid"
+                        width="24"
+                        height="24"
+                        color="#8F8F8F"
+                      />
+                    </Box>
+                    <Box>
+                      <Icon
+                        className="icon-project"
+                        icon="mdi:tailwind"
                         width="24"
                         height="24"
                         color="#8F8F8F"
@@ -501,17 +510,17 @@ const ProjectCards = () => {
                 <CardMedia
                   className="image-card-box"
                   component="img"
-                  image="/images/fedecamaras.jpg"
+                  image="/images/evaluations.jpg"
                   alt="Skynet-image"
                 />
                 <CardContent className="content-card-project">
                   <Typography className="title-project" variant="p">
-                    Fedecamaras App
+                    Evaluations Web
                   </Typography>
                   <Typography className="context-project" variant="body2">
-                    A Mobile App, using Strapi as database, is an app for events
-                    and assemblies of the Fedecamaras company, I was contributor
-                    as a Full Stack dev (Project isn't mine).
+                    A Web App, was a technical test for a software company.
+                    Developed by me as on Back-End as on Front-End (Project is
+                    mine).
                   </Typography>
                   <Box
                     sx={{ textAlign: "left", display: "flex", marginY: "12px" }}
@@ -543,10 +552,32 @@ const ProjectCards = () => {
                         color="#8F8F8F"
                       />
                     </Box>
+                    <Box sx={{ mr: 2 }}>
+                      <Icon
+                        className="icon-project"
+                        icon="teenyicons:mongodb-outline"
+                        width="24"
+                        height="24"
+                        color="#8F8F8F"
+                      />
+                    </Box>
+                    <Box sx={{ mr: 2 }}>
+                      <Icon
+                        className="icon-project"
+                        icon="mdi:material-ui"
+                        width="24"
+                        height="24"
+                        color="#8F8F8F"
+                      />
+                    </Box>
                   </Box>
                   <Box className="button-link-container">
-                    <Link className="link-box-desactive">
-                      No source available
+                    <Link
+                      className="link-box-active"
+                      href="https://github.com/KenyerRamirez/front-app-test"
+                      target="_blank"
+                    >
+                      Source Code
                     </Link>
                   </Box>
                 </CardContent>
@@ -1101,7 +1132,7 @@ const ProjectCards = () => {
                     padding: 5,
                     borderRadius: 50,
                     mr: 10,
-                    transition: ".3s"
+                    transition: ".3s",
                   }
                 : {
                     color: "#17202a",
@@ -1109,7 +1140,7 @@ const ProjectCards = () => {
                     padding: 5,
                     borderRadius: 50,
                     mr: 10,
-                    transition: ".3s"
+                    transition: ".3s",
                   }
             }
           />
@@ -1128,7 +1159,7 @@ const ProjectCards = () => {
                     padding: 5,
                     borderRadius: 50,
                     mr: 10,
-                    transition: ".3s"
+                    transition: ".3s",
                   }
                 : {
                     color: "#17202a",
@@ -1136,7 +1167,7 @@ const ProjectCards = () => {
                     padding: 5,
                     borderRadius: 50,
                     mr: 10,
-                    transition: ".3s"
+                    transition: ".3s",
                   }
             }
           />
