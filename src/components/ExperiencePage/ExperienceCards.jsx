@@ -67,7 +67,7 @@ const ExperienceCards = () => {
               </Typography>
               <Box className="date-container">
                 <Typography className="context-experience" variant="body2">
-                  Sept. 2023 - currently
+                  Sept. 2023 - Oct. 2024
                 </Typography>
               </Box>
             </CardContent>

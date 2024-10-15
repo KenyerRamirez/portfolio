@@ -10,7 +10,7 @@ import "../../css/HomePage.css";
 const HomePage = () => {
   const handleClickDownload = () => {
     window.location.href =
-      "https://drive.usercontent.google.com/download?id=197Ro11io7rxk2AWeMgR7FS0-jgiChofj&export=download&authuser=0&confirm=t&uuid=73b4441f-bc75-4d64-a9fc-85810c40671f&at=AO7h07eUU9ZBebiacWFSn2Tdml3S:1726353186318";
+      "https://drive.usercontent.google.com/download?id=1G68-y2wnm0XFayVvWyWSMCYb7a61hav5&export=download&authuser=0&confirm=t&uuid=3b97fe16-5d67-4d37-829e-e3f7a40dac98&at=AN_67v0hsosGpBMcOKw3v0DN2svW:1729025741977";
   };
   return (
     <>
@@ -109,7 +109,7 @@ const HomePage = () => {
                 </Link>
                 <Link
                   className="icon"
-                  to="https://www.instagram.com/kenyerramirez_?igsh=aXU3dmZodHdocHZm"
+                  to="https://www.instagram.com/ramussdev?igsh=MTlrZDhjMGY2dnhyNw=="
                   target="_blank"
                 >
                   <InstagramIcon fontSize="large" />
