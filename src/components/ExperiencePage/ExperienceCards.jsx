@@ -22,7 +22,7 @@ const ExperienceCards = () => {
         spacing={2}
         sx={{ pb: 12 }}
       >
-        <Grid item xs={6} sm={6} md={4} className="first-box-experience">
+        <Grid item xs={4} sm={4} md={4} className="first-box-experience">
           <Box className="card-shadow-experience"></Box>
           <Card className="card-container-experience">
             <CardMedia
@@ -47,7 +47,7 @@ const ExperienceCards = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6} sm={6} md={4}>
+        <Grid item xs={4} sm={4} md={4} className="first-box-experience">
           <Box className="card-shadow-experience"></Box>
           <Card className="card-container-experience">
             <CardMedia
@@ -67,7 +67,31 @@ const ExperienceCards = () => {
               </Typography>
               <Box className="date-container">
                 <Typography className="context-experience" variant="body2">
-                  Sept. 2023 - Oct. 2024
+                  Sept. 2023 - March 2025
+                </Typography>
+              </Box>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={4} sm={4} md={4}>
+          <Box className="card-shadow-experience"></Box>
+          <Card className="card-container-experience">
+            <CardMedia
+              className="image-card-box-sofitasa"
+              component="img"
+              image="/images/sofitasa.png"
+              alt="Skynet-image"
+            />
+            <CardContent className="content-card-project">
+              <Typography className="title-project" variant="p">
+                Full Stack Developer
+              </Typography>
+              <Typography className="context-experience" variant="body2">
+                As a Full Stack Developer, I’ve working with Next.js, and I start to learn and work with ASP.NET for building MVC applications for differents departments of the bank.
+              </Typography>
+              <Box className="date-container">
+                <Typography className="context-experience" variant="body2">
+                  Dec. 2024 - Currently
                 </Typography>
               </Box>
             </CardContent>

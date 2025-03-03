@@ -16,6 +16,11 @@
   padding: 35px 32px 9px;
 }
 
+.image-card-box-sofitasa {
+  width: 212px !important;
+  padding: 44px 32px 9px;
+}
+
 .context-experience {
   color: #8f8f8f !important;
   font-family: "IBM Plex Serif", serif !important;
@@ -151,6 +156,9 @@
     padding: 20px 0 0 !important;
   }
   .image-card-box-hamal{
+    padding: 30px 12px 8px !important;
+  }
+  .image-card-box-sofitasa{
     padding: 30px 12px 8px !important;
   }
 }
