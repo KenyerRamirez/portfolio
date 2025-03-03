@@ -10,7 +10,7 @@ import "../../css/HomePage.css";
 const HomePage = () => {
   const handleClickDownload = () => {
     window.location.href =
-      "https://drive.usercontent.google.com/download?id=1d2bpR0AdahkPZDjrrmY9rSwUu6Os9Oyj&export=download&authuser=0&confirm=t&uuid=a63d838e-1cdd-46a8-a151-f4720c5eecba&at=AEz70l7Zda6wtM7qpzp4QKbghmiF:1741011144701";
+      "https://drive.usercontent.google.com/download?id=1d2bpR0AdahkPZDjrrmY9rSwUu6Os9Oyj&export=download&authuser=0&confirm=t&uuid=53dd06a5-614d-4c58-9819-8663b14a71a8&at=AEz70l51zuC4muwh2IsVosLTPu7w:1741017718201";
   };
   return (
     <>
